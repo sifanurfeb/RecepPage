@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(30, 54%, 90%);
+}
+.wrapper{
+    background-color: hsl(0, 0%, 100%);
+    max-width: 550px;
+    height: 100%;
+    padding: 20px;
+    margin:  10px auto;
+    border-radius: 10px;
+}
+.wrapper .img-wrapper{
+    max-width: 500px;
+}
+.wrapper .img-wrapper img{
+    border-radius: 10px;
+    width: 100%;
+}
+.wrapper h1{
+    margin: 10px 0;
+    font-family: "Young-Serif", serif;
+    font-size: 30px;
+}
+.wrapper p {
+    margin: 10px 0;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+.wrapper .box-1{
+    width: 500px;
+    height: 150px;
+    background-color: #e0cdf1;
+    padding: 10px 10px;
+    font-family: "Young-Serif",serif;
+    border-radius: 10px;
+}
+.box-1 p{
+    color:hsl(332, 51%, 32%);
+    font-size: 18px;
+    font-weight: 600;
+}
+.box-1 ul {
+    margin: 0 30px;
+    font-weight: 400;
+}
+.box-1 ul li{
+    font-family: "Outfit", sans-serif;
+    margin: 10px 0;
+    font-size: 16px;
+}
+.box-2{
+    margin: 10px 0;
+}
+.box-2 h2 {
+    color:  hsl(14, 45%, 36%);
+    font-family: "Young-Serif", serif;
+    font-weight: 800;
+    font-size: 30px;
+}
+.box-2 ul {
+    margin: 0 30px;
+    font-family: "Outfit", sans-serif;
+}
+.box-2 ul li {
+    font-size: 16px;
+    margin: 10px 0;
+    font-weight: 300;
+}
+.box-2 ul li::marker{
+    color:  hsl(14, 45%, 36%);
+}
+.box-3 h2 {
+    font-family: "Young-Serif", serif;
+    font-weight: 800;
+    color:  hsl(14, 45%, 36%);
+    font-size: 30px;
+}
+.box-3 ol {
+    margin: 0 30px;
+    font-family: "Outfit", sans-serif;
+}
+.box-3 ol li {
+    font-size: 16px;
+    margin: 10px 0;
+    font-weight: 300;
+}
+.box-3 ol li::marker{
+    color:  hsl(14, 45%, 36%);
+    font-weight: 800;
+}
+.box-4{
+    margin: 5px 0;
+}
+.box-4 h2{
+    font-family: "Young-Serif", serif;
+    color:  hsl(14, 45%, 36%);
+    margin: 10px 0;
+}
+.nutri{
+    position: relative;
+}
+.nutri hr{
+    margin: 10px 0;
+}
+.nutri p {
+    margin: 5px 15px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Outfit", sans-serif;
+}
+.nutri span{
+    position: absolute;
+    right: 50%;
+    color:  hsl(14, 45%, 36%);
+    font-weight: 800;
+}
+
+
+@media only  screen and (max-width : 375px){
+    .wrapper {
+        max-width: 290px;
+    }
+    .box-1{
+        max-width: 250px;
+    }
+    .box-1 p {
+        font-size: 16px;
+    }
+    .box-1 ul li {
+        font-size: 13px;
+    }
+    .box-2 p {
+        font-size: 20px;
+    }
+    .box-2 ul li {
+        font-size: 16px;
+    }
+    .box-3 ol li {
+        font-size:16px ;
+        text-align: justify;
+    }
+    .nutri {
+        position: relative;
+    }
+    .nutri p{
+        margin: 0 10px;
+    }
+    .nutri span{
+        position: absolute;
+        right: 70px;
+        text-align: start;
+    }
+}
